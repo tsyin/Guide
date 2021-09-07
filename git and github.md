@@ -21,7 +21,7 @@
 * SSH-Key的密钥类型  
   >有RSA和DSA两种认证密钥  
 ## ssh生成密钥  
-1. 到用户目录下
+1. 到用户目录下  
   >linux:cd /root  
   >windows:cd /用户  
 2. 查看是否已经存在SSH-Key(.ssh隐藏文件夹)  
