@@ -26,5 +26,5 @@
   >windows:cd /用户  
   2.查看是否已经存在SSH-Key(.ssh隐藏文件夹)  
   >ls -al ~/.ssh  
-看是否有文件dd
+看是否有文件dd  
 ssh-keygen -t rsa -C "user@qq.com"
