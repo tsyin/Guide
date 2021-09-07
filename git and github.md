@@ -22,9 +22,9 @@
   >有RSA和DSA两种认证密钥  
 ## ssh生成密钥  
 1. 到用户目录下
-  >linux:cd /root  
-  >windows:cd /用户  
+  >>linux:cd /root  
+  >>windows:cd /用户  
 2. 查看是否已经存在SSH-Key(.ssh隐藏文件夹)  
-  >ls -al ~/.ssh  
+  >>ls -al ~/.ssh  
 看是否有文件dd  
 ssh-keygen -t rsa -C "user@qq.com"
