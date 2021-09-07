@@ -1,2 +1,2 @@
-git生成sshkey,并链接github
+Git生成sshkey,并链接github
 =========
