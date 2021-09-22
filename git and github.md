@@ -50,4 +50,7 @@
   git config --global user.name "tsyin_desklap"  
   git config --global user.email "1115653102@qq.com"  
 ```
-注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。  
+配置好之后可以使用
+git config -l
+查看配置。
