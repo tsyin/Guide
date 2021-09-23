@@ -54,3 +54,26 @@
   配置好之后可以使用  
   ```git config -l```  
   查看配置。
+  
+  创建仓库
+  现在github上创建一个仓库
+  github提供了两种和本地仓库关联起来的方式  
+  方法一：把本地已有的同名Git仓库和GitHub上的仓库关联起来  
+  我们在本地新建了一个名为*(和远程仓库名一样)的文件夹，将文件夹设置成git本地仓库
+  command进入这个文件夹  
+  ```
+  git init  
+  ```
+  新建一个文件，随便写点什么,例如hello.txt
+  将文件加入到更新清单里，并提交到本地仓库  
+  ```
+  git add hello.txt
+  git commit -m "第一次提交"  
+  ``
+  关联本地仓库和远程仓库(ithub仓库)  
+  ```
+  git remote add origin git@github.com:tsyin/cppcode.git
+  ```
+  remote是远程的意思，操作远程仓库时记得加上remote
+  
+  
