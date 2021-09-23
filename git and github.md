@@ -1,5 +1,5 @@
 # Git生成sshkey,并链接github  
-## 知识点  
+## ssh知识点  
 * ssh  
   >Secure Shell (SSH) 是一个允许两台电脑之间通过安全的连接进行数据交换的网络协议。通过加密保证了数据的保密性和完整性。SSH采用公钥加密技术来验证远程主机，以及(必要时)允许远程主机验证用户。  
   
@@ -45,37 +45,46 @@
 5. 复制使用  
     >cat *.pub
 ## git的使用方法
-1. 配置  
+  ###  1.配置  
     安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。  
       ```  
-    git config --global user.name "tsyin_desklap"  
-    git config --global user.email "1115653102@qq.com"  
-    ```  
-    注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。  
-    配置好之后可以使用
-          git config -l
-    查看配置
+      git config --global user.name "tsyin_desktop"  
+      git config --global user.email "1115653102@qq.com"  
+      ```  
+        注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。  
+        配置好之后可以使用下面命令查看配置
+        ```
+        git config -l
+        ```
+    
   
-  创建仓库
-  现在github上创建一个仓库
-  github提供了两种和本地仓库关联起来的方式  
-  方法一：把本地已有的同名Git仓库和GitHub上的仓库关联起来  
-  我们在本地新建了一个名为*(和远程仓库名一样)的文件夹，将文件夹设置成git本地仓库
-  command进入这个文件夹  
-  ```
-  git init
-  ```
-  新建一个文件，随便写点什么,例如hello.txt
-  将文件加入到更新清单里，并提交到本地仓库  
-  ```
-  git add hello.txt
-  git commit -m "第一次提交"
-  ```
-  关联本地仓库和远程仓库(github仓库)  
-  ```
-  git remote add origin git@github.com:tsyin/cppcode.git
-  ```
-  remote是远程的意思，操作远程仓库时记得加上remote
+  ###  2.创建仓库  
+    现在github上创建一个仓库
+    github提供了两种和本地仓库关联起来的方式  
+    * 方法一  
+      >把本地已有的同名Git仓库和GitHub上的仓库关联起来  
+      我们在本地新建了一个名为*(和远程仓库名一样)的文件夹，将文件夹设置成git本地仓库  
+      command进入这个文件夹  
+      ```
+      cd *
+      git init
+      ```
+      >新建一个文件，随便写点什么,例如hello.txt
+      将文件加入到更新清单里，并提交到本地仓库  
+      ```
+      git add hello.txt
+      git commit -m "第一次提交"
+      ```
+      >关联本地仓库和远程仓库(github仓库)  
+      ```
+      git remote add origin git@github.com:tsyin/cppcode.git
+      ```
+      >remote是远程的意思，操作远程仓库时记得加上remote,origin是托管版本  
+    * 方法二  
+      >从已有的github仓库克隆到本地  
+      ```
+      git clone git@github.com:fsliurujie/cppcode.git
+      ```
   
   git clone的几种用法  
   ```
