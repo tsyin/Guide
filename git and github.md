@@ -69,8 +69,8 @@
   ```
   git add hello.txt
   git commit -m "第一次提交"
-  ``
-  关联本地仓库和远程仓库(ithub仓库)  
+  ```
+  关联本地仓库和远程仓库(github仓库)  
   ```
   git remote add origin git@github.com:tsyin/cppcode.git
   ```
