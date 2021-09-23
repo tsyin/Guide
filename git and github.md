@@ -78,8 +78,8 @@
   
   git clone的几种用法  
   ···
-  git clone git@github.com:fsliurujie/test.git         --SSH协议
-  git clone git://github.com/fsliurujie/test.git          --GIT协议
-  git clone https://github.com/fsliurujie/test.git      --HTTPS协议
+  git clone git@github.com:fsliurujie/test.git         --SSH协议  
+  git clone git://github.com/fsliurujie/test.git          --GIT协议  
+  git clone https://github.com/fsliurujie/test.git      --HTTPS协议  
   ···
   
