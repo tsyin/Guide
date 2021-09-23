@@ -44,7 +44,7 @@
 4. 生成后，会在/root目录下，也就是当前用户的目录下，生成一个.ssh隐藏目录，目录中会有[id_rsa]和[id_rsa.pub]两个文件，一个是私钥，一个是公钥。
 5. 复制使用  
     >cat *.pub
-## git操作本地仓库和github远程仓库  
+## git的使用方法
 1. 安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。  
 ```
   git config --global user.name "tsyin_desklap"  
