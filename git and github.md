@@ -45,22 +45,22 @@
 5. 复制使用  
     >cat *.pub
 ## git的使用方法
-  ###  1.配置  
-    安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。  
-      ```  
-      git config --global user.name "tsyin_desktop"  
-      git config --global user.email "1115653102@qq.com"  
-      ```  
-        注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。  
-        配置好之后可以使用下面命令查看配置
-        ```
-        git config -l
-        ```
+1. 配置   
+    >安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。  
+    ```
+    git config --global user.name "tsyin_desktop"  
+    git config --global user.email "1115653102@qq.com"
+    ```
+    >注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。  
+    配置好之后可以使用下面命令查看配置  
+    ```
+    git config -l
+    ```
     
   
-  ###  2.创建仓库  
-    现在github上创建一个仓库
-    github提供了两种和本地仓库关联起来的方式  
+2. 创建仓库  
+    先在github上创建一个仓库
+    >github提供了两种和本地仓库关联起来的方式  
     * 方法一  
       >把本地已有的同名Git仓库和GitHub上的仓库关联起来  
       我们在本地新建了一个名为*(和远程仓库名一样)的文件夹，将文件夹设置成git本地仓库  
@@ -85,11 +85,10 @@
       ```
       git clone git@github.com:fsliurujie/cppcode.git
       ```
-  
-  git clone的几种用法  
-  ```
-  git clone git@github.com:fsliurujie/test.git         --SSH协议  
-  git clone git://github.com/fsliurujie/test.git          --GIT协议  
-  git clone https://github.com/fsliurujie/test.git      --HTTPS协议  
-  ```
+      >git clone的几种用法  
+      ```
+      git clone git@github.com:fsliurujie/test.git         --SSH协议  
+      git clone git://github.com/fsliurujie/test.git          --GIT协议  
+      git clone https://github.com/fsliurujie/test.git      --HTTPS协议  
+      ```
   
