@@ -62,13 +62,13 @@
   我们在本地新建了一个名为*(和远程仓库名一样)的文件夹，将文件夹设置成git本地仓库
   command进入这个文件夹  
   ```
-  git init  
+  git init
   ```
   新建一个文件，随便写点什么,例如hello.txt
   将文件加入到更新清单里，并提交到本地仓库  
   ```
   git add hello.txt
-  git commit -m "第一次提交"  
+  git commit -m "第一次提交"
   ``
   关联本地仓库和远程仓库(ithub仓库)  
   ```
