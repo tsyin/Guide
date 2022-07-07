@@ -63,11 +63,11 @@
 5. 复制使用  
     ```
     cat *.pub
-    ```   
+    ```
 6.将内容复制到github中sshkey,测试是否连接上github  
     ```
     ssh -T git@github.com
-    ```  
+    ```
     无错表示连接成功
 ## git的使用方法
 1. 配置   
