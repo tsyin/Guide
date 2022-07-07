@@ -1,17 +1,17 @@
 # Git生成sshkey,并链接github  
 ## ssh知识点  
-*设置github加速   
-  >更改hosts文件
-  windows系统hosts文件位于目录：C:WindowsSystem32driversetc
-  linux系统的hosts文件位于目录：/etc/
-  添加以下内容：
+*设置github加速      
+  >更改hosts文件   
+  windows系统hosts文件位于目录：C:WindowsSystem32driversetc   
+  linux系统的hosts文件位于目录：/etc/   
+  添加以下内容：   
 '''
-  140.82.114.3 github.com
-  199.232.69.194 github.global.ssl.fastly.net 
-  185.199.108.153 github.com
-  185.199.109.153 github.com
-  185.199.110.153 github.com
-  185.199.111.153 github.com
+  140.82.114.3 github.com   
+  199.232.69.194 github.global.ssl.fastly.net   
+  185.199.108.153 github.com   
+  185.199.109.153 github.com   
+  185.199.110.153 github.com   
+  185.199.111.153 github.com   
   '''
   对于windows系统还需要在cmd窗口输入ipconfig /flushdns才能使用
 * ssh  
