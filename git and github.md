@@ -57,9 +57,9 @@
     >```ssh-keygen -t rsa -C "1115653102@qq.com"```  (三次回车默认生成)
 4. 生成后，会在/root目录下，也就是当前用户的目录下，生成一个.ssh隐藏目录，目录中会有[id_rsa]和[id_rsa.pub]两个文件，一个是私钥，一个是公钥。
 5. 复制使用  
-    >cat *.pub  
+    >```cat *.pub```
 6.将内容复制到github中sshkey,测试是否连接上github  
-    >ssh -T git@github.com  
+    >```ssh -T git@github.com```  
     无错表示连接成功
 ## git的使用方法
 1. 配置   
