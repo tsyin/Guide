@@ -64,7 +64,7 @@
     ```
     cat *.pub
     ```
-6.将内容复制到github中sshkey,测试是否连接上github  
+6. 将内容复制到github中sshkey,测试是否连接上github  
     ```
     ssh -T git@github.com
     ```
